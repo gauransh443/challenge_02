@@ -16,7 +16,7 @@ int main(){
     scanf("%d",&fuel_price);
     fuel_required = distance/vehical_mileage;
     total_cost = fuel_price*fuel_required;
-    printf("The total fuel required for trip is %d Litres and trip of cost is %d ruppes",fuel_required,total_cost);
+    printf("The total fuel required for trip is %d Litres and trip of cost is %d rupees",fuel_required,total_cost);
     return 0;
     
 }
